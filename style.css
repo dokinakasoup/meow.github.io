@@ -1,0 +1,49 @@
+.centre {
+
+    color: rgb(16, 17, 17);
+    text-align: center;
+
+}
+
+
+body{   
+    background-color: rgb(241, 241, 182);
+}
+img{
+    border-radius: 16px;
+}
+
+
+.myclass{
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: space-evenly;
+}
+#img{
+    clip-path: circle(50%);
+    display: block;
+    margin: 0 auto;
+    width:25%;
+}
+#meow{
+    color: rgb(231, 70, 11)
+}
+.fonter{
+    font-family:cursive;
+
+}
+figcaption{
+    text-align: center;
+}
+.cats{
+    
+    font-size:larger;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 70px;
+}
+.iframer{
+    display: flex;
+    justify-content: center;
+}
